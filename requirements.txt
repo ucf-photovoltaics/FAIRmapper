@@ -1,0 +1,18 @@
+The required libraries are as follows;
+Using pip
+
+
+
+import streamlit as st
+import pandas as pd
+from rdflib import Graph, Namespace, URIRef, Literal
+from rdflib.namespace import SH, RDF, RDFS, XSD
+from database.postgres_operations import PostgresDB
+
+import pandas as pd
+from sqlalchemy import create_engine, text
+from sqlalchemy.exc import SQLAlchemyError
+
+
+To run this script all you need to do is run the command: python app.py
+To run the application just use the command: streamlit run app.py
